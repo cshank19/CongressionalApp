@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         // Button to go to next screen
         goToPartsScreen();
 
-//test comment by james
+
     }
 
     private void goToPartsScreen()

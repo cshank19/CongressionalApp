@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Calves"></activity>
+        <activity android:name=".SoleusMuscle"></activity>
+        <activity android:name=".Calcaneal" />
+        <activity android:name=".Gastrocnemius" />
+        <activity android:name=".MedialHead" />
+        <activity android:name=".Calves" />
         <activity android:name=".PartsScreen" />
         <activity android:name=".MainActivity">
             <intent-filter>
