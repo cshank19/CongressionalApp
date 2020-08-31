@@ -26,12 +26,12 @@ public class MainActivity extends AppCompatActivity {
 
     private void goToPartsScreen()
     {
-        final Button partsScreen = (Button) findViewById(R.id.stretchScreen);
+        Button partsScreen = (Button) findViewById(R.id.stretchScreen);
         partsScreen.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
 
                 // Log.i("My btn", "Button pressed");
-                Toast.makeText(getApplicationContext(), "Its working", Toast.LENGTH_SHORT).show();
+               // Toast.makeText(getApplicationContext(), "Its working", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(MainActivity.this, Calves.class));
             }
         });
