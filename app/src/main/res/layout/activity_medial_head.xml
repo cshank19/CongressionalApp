@@ -6,4 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".MedialHead">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="282dp"
+        android:layout_height="433dp"
+        app:srcCompat="@drawable/medialhead"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="41dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
