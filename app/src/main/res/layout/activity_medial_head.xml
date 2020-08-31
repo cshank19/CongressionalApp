@@ -13,4 +13,12 @@
         app:srcCompat="@drawable/medialhead"
         tools:layout_editor_absoluteX="54dp"
         tools:layout_editor_absoluteY="41dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="266dp"
+        android:layout_height="103dp"
+        android:text="Your Calves Are Tight!!!"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="494dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
