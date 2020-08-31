@@ -20,12 +20,41 @@ public class Calves extends AppCompatActivity {
     {
 
         Button medHead = (Button) findViewById(R.id.MeadialHead);
+        Button gasMuscle = (Button) findViewById(R.id.GasMuscle);
+        Button calcTendon = (Button) findViewById(R.id.Calcaneal);
+        Button solMuscle = (Button) findViewById(R.id.Soleus);
+
+
         medHead.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
 
                 // Log.i("My btn", "Button pressed");
                 // Toast.makeText(getApplicationContext(), "Its working", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(Calves.this, Calves.class));
+                startActivity(new Intent(Calves.this, MedialHead.class));
+            }
+        });
+        gasMuscle.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+
+                // Log.i("My btn", "Button pressed");
+                // Toast.makeText(getApplicationContext(), "Its working", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(Calves.this, Gastrocnemius.class));
+            }
+        });
+        calcTendon.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+
+                // Log.i("My btn", "Button pressed");
+                // Toast.makeText(getApplicationContext(), "Its working", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(Calves.this, Calcaneal.class));
+            }
+        });
+        solMuscle.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+
+                // Log.i("My btn", "Button pressed");
+                // Toast.makeText(getApplicationContext(), "Its working", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(Calves.this, SoleusMuscle.class));
             }
         });
     }
