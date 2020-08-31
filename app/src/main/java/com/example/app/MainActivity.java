@@ -32,9 +32,10 @@ public class MainActivity extends AppCompatActivity {
 
                 // Log.i("My btn", "Button pressed");
                 Toast.makeText(getApplicationContext(), "Its working", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(MainActivity.this, PartsScreen.class));
+                startActivity(new Intent(MainActivity.this, Calves.class));
             }
         });
     }
+
 
 }
