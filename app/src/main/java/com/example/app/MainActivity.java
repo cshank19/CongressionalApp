@@ -46,12 +46,10 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onNothingSelected(AdapterView<?> adapterView) {
+                goToPartsScreen(1);
             }
         });
     }
-
-
-
 
 
     private void goToPartsScreen(final int arrayIndex)
