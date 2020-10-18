@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">App</string>
+    <string-array name="majorParts">
+        <item>Arms</item>
+        <item>Back</item>
+        <item>Legs</item>
+    </string-array>
 </resources>

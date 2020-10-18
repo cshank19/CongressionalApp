@@ -6,8 +6,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Spinner;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -17,14 +19,17 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Spinner dropDown = (Spinner) findViewById(R.id.spinner1);
+        ArrayAdapter<String> majorAdapter = new ArrayAdapter<String>(MainActivity.this,
+                android.R.layout.simple_list_item_1, getResources().getStringArray(R.array.majorParts));
 
         // Button to go to next screen
-        goToPartsScreen();
+     //   goToPartsScreen();
 
 
     }
 
-    private void goToPartsScreen()
+  /*  private void goToPartsScreen()
     {
         Button partsScreen = (Button) findViewById(R.id.stretchScreen);
         partsScreen.setOnClickListener(new View.OnClickListener() {
@@ -35,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, Calves.class));
             }
         });
-    }
+    }*/
 
 
 }
