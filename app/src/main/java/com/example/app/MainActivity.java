@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
                     //back scree
                 }else if(arrayIndex == 2){
                     //legs screen
-                   // startActivity(new Intent(MainActivity.this, Calves.class));
+                    startActivity(new Intent(MainActivity.this, Legs.class));
                 }
 
 
