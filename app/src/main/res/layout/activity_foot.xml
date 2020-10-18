@@ -6,4 +6,20 @@
     android:layout_height="match_parent"
     tools:context=".Foot">
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/fleet"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-215dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lets Fucking Stomp Out Bullying"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="299dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
