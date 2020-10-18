@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         Spinner dropDown = (Spinner) findViewById(R.id.spinner1);
         ArrayAdapter<String> majorAdapter = new ArrayAdapter<String>(MainActivity.this,
                 android.R.layout.simple_list_item_1, getResources().getStringArray(R.array.majorParts));
-
+        dropDown.setAdapter(majorAdapter);
         // Button to go to next screen
      //   goToPartsScreen();
 
