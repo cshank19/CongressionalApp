@@ -33,9 +33,11 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                 if (i == 0) {
-                    Log.i("Test", "it is arms");
+                    goToPartsScreen(0);
                 }else if(i == 1){
-                    Log.i("Test", "it is back");
+                    goToPartsScreen(1);
+                }else if(i == 2){
+                    goToPartsScreen(2);
                 }
 
 
@@ -47,21 +49,29 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-}
 
 
 
-  /*  private void goToPartsScreen()
+
+
+    private void goToPartsScreen(final int arrayIndex)
     {
         Button partsScreen = (Button) findViewById(R.id.stretchScreen);
         partsScreen.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
+                if(arrayIndex == 0){
+                    //arms screen
+                }else if(arrayIndex == 1){
+                    //back scree
+                }else if(arrayIndex == 2){
+                    //legs screen
+                   // startActivity(new Intent(MainActivity.this, Calves.class));
+                }
 
-                // Log.i("My btn", "Button pressed");
-               // Toast.makeText(getApplicationContext(), "Its working", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(MainActivity.this, Calves.class));
+
+
             }
         });
-    }*/
-
+    }
+}
 
