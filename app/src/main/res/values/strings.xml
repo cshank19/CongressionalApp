@@ -14,13 +14,26 @@
         <item>Foot</item>
     </string-array>
     <string name="title_activity_test_scroll">ScrollingActivity</string>
-    <string name="CalvesStretch">
-        "-  Stretch 1\n\n"
 
-        "   1. Find a wall to stand in front \n"
-        "   2. Place one foot in front of the other and slightly bend your front knee \n"
-        "   3.While bending your front knee, keep your back knee straight with your heel on the ground and lean towards the wall\n"
-        "   4. Hold the stretch for 20-30 seconds and alternate leds for a total of three repetitions\n"
+    <string name="CalvesStretch">
+       " Stretch 1 \n\n"
+"   1.Find a wall to stand in front of\n\n"
+"   2.Place one foot in front of the other and slightly bend your front knee\n\n"
+"   3.While bending your front knee, keep your back knee straight with your heel on the ground and lean towards the wall\n\n"
+"   4.Hold the stretch for 20-30 seconds and alternate legs for a total of three repetitions\n\n"
+
+"Stretch 2\n\n"
+"   1.Find a wall to stand in front of \n\n"
+"   2.Place one foot in front of the other and slightly bend your front knee \n\n"
+"   3.While bending your front knee, bend your back knee, lean towards the wall while keeping your heel on the ground\n\n"
+"   4.Hold the stretch for 20-30 seconds and alternate legs for a total of three repetitions\n\n"
+"Stretch 3 \n\n"
+"   1.For an intense stretch stand on a step, place the ball of your foot on the edge of a step with your heel not touching the step.\n\n"
+"   2.Slowly drop your heel down carrying your body weight throughout your calves and if needed you can hold onto something such as a banister to help with balance.\n\n"
+"   3.Hold the stretch for 20-30 seconds and alternate legs for a total of three repetitions \n\n"
+"\n\n\n\n\n\n\n\n      "
+
+
 
     </string>
     <string name="action_settings">Settings</string>
