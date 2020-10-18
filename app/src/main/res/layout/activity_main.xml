@@ -5,10 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+
+
     <Spinner
         android:id="@+id/spinner1"
-        android:layout_width="470dp"
-        android:layout_height="wrap_content"
+        android:layout_width="285dp"
+        android:layout_height="128dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
         app:layout_constraintBottom_toTopOf="@+id/stretchScreen"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -19,7 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-light"
-        android:text="A nibba has to stretch"
+        android:text="Hurtmaster "
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -33,7 +37,7 @@
         android:id="@+id/stretchScreen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tell Us Whats Hurting"
+        android:text="Take me there"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
