@@ -46,7 +46,7 @@
                 android:id="@+id/tv_long"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/CalvesStretch"
+
                 android:textSize="24sp"></TextView>
 
         </LinearLayout>

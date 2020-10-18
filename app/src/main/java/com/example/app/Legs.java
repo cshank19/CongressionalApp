@@ -63,8 +63,7 @@ public class Legs extends AppCompatActivity {
                 }else if(arrayIndex == 3){
                     startActivity(new Intent(Legs.this, Calves.class));
                 }else if(arrayIndex == 4){
-                    startActivity(new Intent(Legs.this, Foot.class));
-
+//
                 }
 
 

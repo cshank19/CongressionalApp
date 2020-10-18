@@ -11,7 +11,7 @@
         <item>Hamstrings</item>
         <item>Knee</item>
         <item>Calves</item>
-        <item>Foot</item>
+
     </string-array>
     <string name="title_activity_test_scroll">ScrollingActivity</string>
 
