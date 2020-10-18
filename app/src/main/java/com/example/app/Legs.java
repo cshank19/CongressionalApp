@@ -2,6 +2,7 @@ package com.example.app;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -25,15 +26,15 @@ public class Legs extends AppCompatActivity {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                 if (i == 0) {//quads
-
+                    goToLegsPartsScreen(0);
                 }else if(i == 1){//hamstrings
-
+                    goToLegsPartsScreen(1);
                 }else if(i == 2){//knees
-
+                    goToLegsPartsScreen(2);
                 }else if(i == 3){//calves
-
+                    goToLegsPartsScreen(3);
                 }else if(i == 4){//foot
-
+                    goToLegsPartsScreen(4);
                 }
 
 
@@ -47,22 +48,22 @@ public class Legs extends AppCompatActivity {
         });
     }
 
-    private void goToPartsScreen(final int arrayIndex)
+    private void goToLegsPartsScreen(final int arrayIndex)
     {
-        Button partsScreen = (Button) findViewById(R.id.stretchScreen);
-        partsScreen.setOnClickListener(new View.OnClickListener() {
+        Button legPartsScreen = (Button) findViewById(R.id.next);
+        legPartsScreen.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 if(arrayIndex == 0){
-                    //quads
+                    startActivity(new Intent(Legs.this, Quads.class));
                 }else if(arrayIndex == 1){
-                    //hams
+                    startActivity(new Intent(Legs.this, Hamstrings.class));
                 }else if(arrayIndex == 2){
-                    //knee
+                    startActivity(new Intent(Legs.this, Knee.class));
 
                 }else if(arrayIndex == 3){
-                    //calves
+                    startActivity(new Intent(Legs.this, Calves.class));
                 }else if(arrayIndex == 4){
-                    //foot
+                    startActivity(new Intent(Legs.this, Foot.class));
 
                 }
 
