@@ -16,23 +16,30 @@
     <string name="title_activity_test_scroll">ScrollingActivity</string>
 
     <string name="CalvesStretch">
-       " Stretch 1 \n\n"
-"   1.Find a wall to stand in front of\n\n"
-"   2.Place one foot in front of the other and slightly bend your front knee\n\n"
-"   3.While bending your front knee, keep your back knee straight with your heel on the ground and lean towards the wall\n\n"
-"   4.Hold the stretch for 20-30 seconds and alternate legs for a total of three repetitions\n\n"
+       " Stretch 1 \n"
+"   1.Find a wall to stand in front of\n"
+"   2.Place one foot in front of the other and slightly bend your front knee\n"
+"   3.While bending your front knee, keep your back knee straight with your heel on the ground and lean towards the wall\n"
+"   4.Hold the stretch for 20-30 seconds and alternate legs for a total of three repetitions\n"
 
-"Stretch 2\n\n"
-"   1.Find a wall to stand in front of \n\n"
-"   2.Place one foot in front of the other and slightly bend your front knee \n\n"
-"   3.While bending your front knee, bend your back knee, lean towards the wall while keeping your heel on the ground\n\n"
-"   4.Hold the stretch for 20-30 seconds and alternate legs for a total of three repetitions\n\n"
-"Stretch 3 \n\n"
-"   1.For an intense stretch stand on a step, place the ball of your foot on the edge of a step with your heel not touching the step.\n\n"
-"   2.Slowly drop your heel down carrying your body weight throughout your calves and if needed you can hold onto something such as a banister to help with balance.\n\n"
-"   3.Hold the stretch for 20-30 seconds and alternate legs for a total of three repetitions \n\n"
-"\n\n\n\n\n\n\n\n      "
 
+
+
+    </string>
+
+    <string name="c2">
+        "Stretch 2\n"
+"   1.Find a wall to stand in front of \n"
+"   2.Place one foot in front of the other and slightly bend your front knee \n"
+"   3.While bending your front knee, bend your back knee, lean towards the wall while keeping your heel on the ground\n"
+"   4.Hold the stretch for 20-30 seconds and alternate legs for a total of three repetitions\n"
+    </string>
+    <string name="c3">
+        "Stretch 3 \n"
+"   1.For an intense stretch stand on a step, place the ball of your foot on the edge of a step with your heel not touching the step.\n"
+"   2.Slowly drop your heel down carrying your body weight throughout your calves and if needed you can hold onto something such as a banister to help with balance.\n"
+"   3.Hold the stretch for 20-30 seconds and alternate legs for a total of three repetitions \n"
+"\n    "
     </string>
     <string name="KneeStrech">
     "Stretch 1\n\n
@@ -51,27 +58,33 @@ Stretch 2\n\n
     </string>
 
 
-    <string name="QuadStretch">
-    "Stretch 1 \n\n
-        1.Begin by going in a high lunge position with your one right forward\n\n
-        2.Lightly drop your left knee onto the floor to help you keep balance\n\n
-        3.Reach back with your right arm and grab your right foot’s toes and bring your heel to your butt\n\n
-        4.Hold this position for 30 seconds\n\n
-        5.Gradually move your body into the starting position, switch your legs, and repeat the steps\n\n
+    <string name="QuadStretch1">
+    "Stretch 1 \n
+    1.Begin by going in a high lunge position with your one right forward\n
+    2.Lightly drop your left knee onto the floor to help you keep balance\n
+    3.Reach back with your right arm and grab your right foot’s toes and bring your heel to your butt\n
+    4.Hold this position for 30 seconds\n
+    5.Gradually move your body into the starting position, switch your legs, and repeat the steps\n"
 
-    Stretch 2 \n\n
-        1.Stand on your left leg with one leg touching the other, while holding onto to a chair or wall to maintain balance\n\n
-        2.Using your right hand, grab your right foot and bring your right foot to your butt while pushing your hips and chest forward\n\n
-        3.Switching from your right to left leg hold the position for 20-30 seconds\n\n
 
-    Stretch 3\n\n
-        1.Start by lying flat on your stomach lifting your torso up on your elbows \n\n
-        2.Bend both of your knees and reach back grabbing your feet\n\n
-        3.Adjust your grip on your feet to have your fingers to point the same way as your toes while pointing your elbows to the ceiling and pushing your chest as far up as it can go\n\n
-        4.Hold the stretch for five deep breaths\n\n"
+
     </string>
 
+    <string name="Quad2">
 
+   " Stretch 2 \n
+    1.Stand on your left leg with one leg touching the other, while holding onto to a chair or wall to maintain balance\n
+    2.Using your right hand, grab your right foot and bring your right foot to your butt while pushing your hips and chest forward\n
+    3.Switching from your right to left leg hold the position for 20-30 seconds\n"
+    </string>
+
+    <string name="Quad3">
+      "   Stretch 3\n
+        1.Start by lying flat on your stomach lifting your torso up on your elbows \n
+        2.Bend both of your knees and reach back grabbing your feet\n
+        3.Adjust your grip on your feet to have your fingers to point the same way as your toes while pointing your elbows to the ceiling and pushing your chest as far up as it can go\n
+        4.Hold the stretch for five deep breaths\n"
+    </string>
     <string name="action_settings">Settings</string>
 
 </resources>
