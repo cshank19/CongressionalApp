@@ -3,5 +3,6 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
-    <color name = "background">#800000</color>
+    <color name = "background">#add8e6 </color>
+    <color name="spinner1">#03a9fc</color>
 </resources>
