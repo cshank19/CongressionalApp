@@ -33,9 +33,45 @@
 "   3.Hold the stretch for 20-30 seconds and alternate legs for a total of three repetitions \n\n"
 "\n\n\n\n\n\n\n\n      "
 
-
-
     </string>
+    <string name="KneeStrech">
+    "Stretch 1\n\n
+    1.Lie down on the ground with your chest facing the ceiling\n\n
+    2.Bend your left leg while keeping your right leg straight out in front of you\n\n\
+    3.Slowly raise your right leg off of the floor until it reaches the same height as your bent leg\n\n\
+    4.Pause at the top of the position for 5 seconds then lower your right leg back down slowly\n\n
+    5.Do 2 to 3 sets of repetitions for each leg\n\n\n\
+
+Stretch 2\n\n
+1.Lie down on the ground with your back facing the ceiling\n\n
+2.Straighten out both of your legs and begin to lift one of your legs to ceiling engaging your glutes and hamstrings\n\n
+3.Hold your leg in this position for ten seconds lower your leg and repeat for 2-3 seats of 10 repetitions per leg\n\n
+
+"
+    </string>
+
+
+    <string name="QuadStretch">
+    "Stretch 1 \n\n
+        1.Begin by going in a high lunge position with your one right forward\n\n
+        2.Lightly drop your left knee onto the floor to help you keep balance\n\n
+        3.Reach back with your right arm and grab your right foot’s toes and bring your heel to your butt\n\n
+        4.Hold this position for 30 seconds\n\n
+        5.Gradually move your body into the starting position, switch your legs, and repeat the steps\n\n
+
+    Stretch 2 \n\n
+        1.Stand on your left leg with one leg touching the other, while holding onto to a chair or wall to maintain balance\n\n
+        2.Using your right hand, grab your right foot and bring your right foot to your butt while pushing your hips and chest forward\n\n
+        3.Switching from your right to left leg hold the position for 20-30 seconds\n\n
+
+    Stretch 3\n\n
+        1.Start by lying flat on your stomach lifting your torso up on your elbows \n\n
+        2.Bend both of your knees and reach back grabbing your feet\n\n
+        3.Adjust your grip on your feet to have your fingers to point the same way as your toes while pointing your elbows to the ceiling and pushing your chest as far up as it can go\n\n
+        4.Hold the stretch for five deep breaths\n\n"
+    </string>
+
+
     <string name="action_settings">Settings</string>
 
 </resources>
