@@ -31,7 +31,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
-                android:text="Calves hurtin = sad"
+                android:text="Calves"
                 android:textSize="36sp" />
 
             <TextView
@@ -82,8 +82,11 @@
             <ImageView
                 android:id="@+id/imageView12"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="408dp"
+                android:layout_marginTop="20dp"
                 app:srcCompat="@drawable/cal3" />
+
+
 
         </LinearLayout>
     </ScrollView>
