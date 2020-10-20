@@ -37,10 +37,10 @@
             <TextView
                 android:id="@+id/textView8"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/CalvesStretch"
-                android:layout_marginRight="20dp"
+                android:layout_height="525dp"
                 android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/CalvesStretch"
                 android:textSize="28sp" />
 
             <ImageView
@@ -70,7 +70,7 @@
             <TextView
                 android:id="@+id/c3"
                 android:layout_width="match_parent"
-                android:layout_height="408dp"
+                android:layout_height="wrap_content"
 
                 android:layout_marginRight="20dp"
                 android:layout_marginLeft="20dp"

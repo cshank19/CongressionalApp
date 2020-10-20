@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background"
+    android:background="@drawable/bonkers"
     tools:context=".MainActivity">
 
 
@@ -16,7 +16,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
 
-        android:background="@color/spinner1"
+        android:background="@color/White"
 
         app:layout_constraintBottom_toTopOf="@+id/stretchScreen"
         app:layout_constraintEnd_toEndOf="parent"
@@ -30,6 +30,8 @@
         android:fontFamily="sans-serif-light"
         android:text="Super Stretcher"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#000000"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
